@@ -1,0 +1,128 @@
+.doctors-container {
+  padding: 150px 40px;
+}
+.doctors-body {
+  max-width: 1080px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.doctors-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+}
+.doctors-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 25%;
+}
+.doctors-item img {
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 10px;
+}
+.doctors-name {
+  text-align: center;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.doctors-job {
+  text-align: center;
+  opacity: 0.4;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* ADAPTIVE */
+
+@media (max-width: 1024px) {
+  .doctors-container {
+    padding: 40px;
+  }
+  .doctors-title {
+    font-size: 50px;
+    line-height: 60px;
+    max-width: 700px;
+    text-align: center;
+  }
+}
+@media (max-width: 1005px) {
+  .doctors-label {
+    font-size: 22px;
+    line-height: unset;
+  }
+  .doctors-text {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: justify;
+  }
+  .doctors-items {
+    gap: 10px;
+  }
+  .doctors-item {
+    flex: 1 1 40%;
+  }
+}
+@media (max-width: 768px) {
+  .doctors-title {
+    font-size: 45px;
+    line-height: 50px;
+    max-width: unset;
+    margin-bottom: 20px;
+  }
+  .doctors-columns {
+    flex-direction: column;
+    row-gap: 20px;
+    margin-bottom: 20px;
+  }
+  .doctors-label {
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+  .doctors-text {
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (max-width: 630px) {
+  .doctors-container {
+    padding: 20px;
+  }
+}
+@media (max-width: 425px) {
+  .doctors-title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .doctors-label {
+    font-size: 20px;
+  }
+  .doctors-item {
+    flex: 1 1 100%;
+  }
+  .doctors-name {
+    line-height: unset;
+  }
+  .doctors-item img {
+    max-width: 300px;
+  }
+  .doctors-items {
+    gap: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .doctors-container {
+    padding: 20px 10px;
+  }
+  .doctors-item img {
+    max-width: 200px;
+  }
+}

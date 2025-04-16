@@ -1,0 +1,75 @@
+.call-back-form-title {
+  font-size: 24px;
+  line-height: 1.35;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.call-back-form-input-item {
+  display: flex;
+  flex-direction: column;
+}
+.call-back-form-input {
+  outline: none;
+  margin-bottom: 10px;
+  padding: 15px 30px;
+  font-family: "TTRounds";
+  font-size: 16px;
+  border: 1px solid #d1d1d1;
+}
+.call-back-form-submit-button {
+  transition: color 0.3s, background-color 0.3s;
+  background-color: #199c68;
+  border: 1px solid #199c68;
+  text-transform: uppercase;
+  outline: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 15px 30px;
+  font-family: "TTRounds";
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.call-back-form-submit-button:hover {
+  background-color: #fff;
+  color: #199c68;
+}
+.call-back-form-text {
+  font-size: 18px;
+  line-height: 1.25;
+  margin-bottom: 10px;
+}
+.call-back-form-text a {
+  transition: color 0.3s;
+  color: #6fcb7c;
+}
+.call-back-form-text a:hover {
+  color: #17a329;
+}
+.call-back-form-label {
+  line-height: 1.35;
+}
+
+/* ADAPTIVE */
+
+@media (max-width: 425px) {
+  .call-back-form-title {
+    font-size: 18px;
+    line-height: 1.05;
+    margin-bottom: 15px;
+  }
+  .call-back-form-text {
+    font-size: 16px;
+    line-height: 1.15;
+    margin-bottom: 10px;
+  }
+  .call-back-form-label {
+    font-size: 14px;
+    line-height: 1.15;
+  }
+}
+@media (max-width: 320px) {
+  .call-back-form-submit-button {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,260 @@
+.kids-container {
+  position: relative;
+  padding: 250px 40px;
+  background-color: #738fe5;
+  overflow: hidden;
+}
+.kids-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  margin-left: -20%;
+}
+.kids-title {
+  font-size: 56px;
+  max-width: 550px;
+  color: #fdfaf6;
+}
+.kids-text {
+  line-height: 27px;
+  font-size: 18px;
+  max-width: 550px;
+  color: #fdfaf6;
+}
+.kids-bg {
+  position: absolute;
+  top: 50%;
+  right: -2%;
+  transform: translate(0, -50%);
+  width: 100%;
+  max-width: 650px;
+  z-index: 1;
+}
+.kids-pinkbear {
+  transition: all, 0.8s;
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  max-width: 260px;
+}
+.animated-pinkbear {
+  transform: translate(-20%, -20%);
+}
+.kids-yellowbear {
+  transition: all, 0.8s;
+  position: absolute;
+  bottom: 5%;
+  left: -5%;
+}
+.animated-yellowbear {
+  transform: translate(50%, 0);
+}
+.kids-ball {
+  transition: all, 1s;
+  position: absolute;
+  bottom: 7%;
+  left: 10%;
+}
+.animated-ball {
+  transform: translate(500%, 0) rotate(360deg);
+}
+
+/* ADAPTIVE */
+@media (max-width: 1700px) {
+  .kids-pinkbear {
+    transition: all, 0.8s;
+    position: absolute;
+    top: 10%;
+    right: 22%;
+    max-width: 260px;
+  }
+}
+@media (max-width: 1440px) {
+  .kids-container {
+    position: relative;
+    padding: 40px;
+    background-color: #738fe5;
+    overflow: hidden;
+  }
+  .kids-body {
+    align-items: flex-start;
+    margin-left: 0;
+  }
+  .kids-title {
+    max-width: unset;
+  }
+  .kids-text {
+    line-height: 42px;
+    font-size: 30px;
+    max-width: 75%;
+  }
+  .kids-bg {
+    position: relative;
+    display: block;
+    top: unset;
+    right: unset;
+    transform: translate(40px, 0px);
+    width: 100%;
+    max-width: 30%;
+    margin-left: auto;
+  }
+  .kids-pinkbear {
+    top: 30%;
+    right: 8%;
+    width: 100%;
+    max-width: 15%;
+    transform: rotate(20deg);
+  }
+  .animated-pinkbear {
+    transform: translate(0, -40%) rotate(20deg);
+  }
+  .kids-yellowbear {
+    bottom: 5%;
+    left: -5%;
+    width: 100%;
+    max-width: 15%;
+  }
+  .animated-yellowbear {
+    transform: translate(50%, 0);
+  }
+  .kids-ball {
+    bottom: 7%;
+    left: 10%;
+    width: 100%;
+    max-width: 10%;
+  }
+  .animated-ball {
+    transform: translate(450%, 0) rotate(360deg);
+  }
+}
+@media (max-width: 1024px) {
+  .kids-container {
+    position: relative;
+    padding: 40px 40px 150px 40px;
+    background-color: #738fe5;
+    overflow: hidden;
+  }
+  .kids-bg {
+    display: none;
+  }
+  .kids-pinkbear {
+    top: 30%;
+    right: -10%;
+    width: 100%;
+    max-width: 15%;
+    transform: rotate(-40deg);
+  }
+  .animated-pinkbear {
+    transform: translate(-50%, 0%) rotate(-40deg);
+  }
+  .kids-body {
+    align-items: flex-start;
+    margin-left: 0;
+    gap: 20px;
+  }
+  .kids-title {
+    font-size: 50px;
+  }
+  .kids-text {
+    text-align: justify;
+    line-height: 35px;
+    font-size: 20px;
+    max-width: 75%;
+  }
+  .kids-yellowbear {
+    bottom: 2%;
+    left: -5%;
+    width: 100%;
+    max-width: 12%;
+  }
+  .animated-yellowbear {
+    transform: translate(50%, 0);
+  }
+  .kids-ball {
+    bottom: 2%;
+    left: 10%;
+    width: 100%;
+    max-width: 7%;
+  }
+  .animated-ball {
+    transform: translate(700%, 0) rotate(360deg);
+  }
+}
+@media (max-width: 768px) {
+  .kids-title {
+    font-size: 45px;
+  }
+  .kids-text {
+    font-size: 18px;
+    line-height: 30px;
+    max-width: unset;
+  }
+  .kids-pinkbear {
+    top: 75%;
+    right: 5%;
+    transform: none;
+    width: 100%;
+    max-width: 120px;
+  }
+  .animated-pinkbear {
+    transform: none;
+  }
+  .kids-yellowbear {
+    transition: none;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+  }
+  .animated-yellowbear {
+    transform: none;
+  }
+  .kids-ball {
+    transition: none;
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+  }
+  .animated-ball {
+    transform: none;
+  }
+}
+@media (max-width: 630px) {
+  .kids-container {
+    padding: 40px 20px 130px 20px;
+  }
+}
+@media (max-width: 425px) {
+  .kids-container {
+    padding: 20px 20px 100px 20px;
+  }
+  .kids-title {
+    font-size: 35px;
+  }
+  .kids-text {
+    font-size: 16px;
+    line-height: 25px;
+    max-width: unset;
+  }
+  .kids-pinkbear {
+    top: 80%;
+    right: 5%;
+    transform: none;
+    width: 100%;
+    max-width: 80px;
+  }
+}
+@media (max-width: 375px) {
+  .kids-title {
+    font-size: 30px;
+  }
+  .kids-container {
+    padding: 20px 20px 80px 20px;
+  }
+}
+@media (max-width: 320px) {
+  .kids-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

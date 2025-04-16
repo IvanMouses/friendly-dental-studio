@@ -1,0 +1,316 @@
+.hero-message-container {
+  padding: 250px 40px 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 100px;
+}
+.hero-message-title {
+  position: relative;
+}
+.hero-message-title h2 {
+  max-width: 620px;
+  font-size: 56px;
+  text-align: center;
+}
+.hero-message-decor {
+  transition: all 0.5s;
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+}
+.hero-message-decor:nth-of-type(1) {
+  top: -200px;
+  left: -200px;
+}
+.hero-message-decor:nth-of-type(2) {
+  bottom: 70px;
+  left: -250px;
+}
+.hero-message-decor:nth-of-type(3) {
+  bottom: -100px;
+  left: -250px;
+}
+.hero-message-decor:nth-of-type(4) {
+  bottom: -100px;
+  right: -220px;
+}
+.hero-message-decor:nth-of-type(5) {
+  bottom: 0px;
+  right: -250px;
+}
+.hero-message-decor:nth-of-type(6) {
+  top: -200px;
+  right: -250px;
+}
+.hero-message-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 30px;
+  max-width: 780px;
+  text-align: center;
+  line-height: 42px;
+}
+.hero-message-img {
+  width: 100%;
+  padding-bottom: 40%;
+  background: url("/img/Main/HeroMessage/7.jpg") no-repeat 100% 30% / cover;
+}
+
+/* ADAPTIVE */
+
+@media (max-width: 1200px) {
+  .hero-message-container {
+    padding: 170px 40px 40px;
+    row-gap: 170px;
+  }
+  .hero-message-title h2 {
+    max-width: 600px;
+    font-size: 50px;
+    text-align: center;
+  }
+  .hero-message-decor:nth-of-type(1) {
+    top: -170px;
+    left: -100px;
+  }
+  .hero-message-decor:nth-of-type(2) {
+    bottom: -150px;
+    left: -120px;
+  }
+  .hero-message-decor:nth-of-type(3) {
+    bottom: -170px;
+    left: 150px;
+  }
+  .hero-message-decor:nth-of-type(4) {
+    bottom: -170px;
+    right: -120px;
+  }
+  .hero-message-decor:nth-of-type(5) {
+    bottom: 70px;
+    right: -170px;
+  }
+  .hero-message-decor:nth-of-type(6) {
+    top: -160px;
+    left: 200px;
+  }
+}
+@media (max-width: 950px) {
+  .hero-message-title h2 {
+    max-width: 550px;
+    font-size: 45px;
+    text-align: center;
+  }
+  .hero-message-decor:nth-of-type(1) {
+    max-width: 170px;
+    top: -150px;
+    left: 10px;
+  }
+  .hero-message-decor:nth-of-type(6) {
+    max-width: 200px;
+    top: -150px;
+    left: 170px;
+  }
+  .hero-message-decor:nth-of-type(5) {
+    bottom: 60px;
+    right: -20px;
+  }
+  .hero-message-decor:nth-of-type(2) {
+    max-width: 140px;
+    bottom: -140px;
+    left: 20px;
+  }
+  .hero-message-decor:nth-of-type(3) {
+    max-width: 200px;
+    bottom: -140px;
+    left: 180px;
+  }
+  .hero-message-decor:nth-of-type(4) {
+    max-width: 170px;
+    bottom: -150px;
+    right: 0px;
+  }
+  .hero-message-text {
+    font-size: 25px;
+    line-height: 38px;
+  }
+}
+@media (max-width: 768px) {
+  .hero-message-decor {
+    transition: none;
+    opacity: 1;
+    transform: none;
+    position: absolute;
+  }
+}
+@media (max-width: 690px) {
+  .hero-message-title h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .hero-message-text {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: unset;
+    gap: 10px;
+  }
+}
+@media (max-width: 630px) {
+  .hero-message-container {
+    padding: 150px 20px 20px;
+    row-gap: 140px;
+  }
+  .hero-message-decor:nth-of-type(1) {
+    max-width: 150px;
+    top: -130px;
+    left: 60px;
+  }
+  .hero-message-decor:nth-of-type(6) {
+    max-width: 180px;
+    top: -130px;
+    left: 180px;
+  }
+  .hero-message-decor:nth-of-type(5) {
+    max-width: 200px;
+    bottom: 60px;
+    right: 40px;
+  }
+  .hero-message-decor:nth-of-type(2) {
+    max-width: 120px;
+    bottom: -120px;
+    left: 80px;
+  }
+  .hero-message-decor:nth-of-type(3) {
+    max-width: 180px;
+    bottom: -120px;
+    left: 190px;
+  }
+  .hero-message-decor:nth-of-type(4) {
+    max-width: 130px;
+    bottom: -120px;
+    right: 70px;
+  }
+}
+@media (max-width: 550px) {
+  .hero-message-title h2 {
+    font-size: 35px;
+  }
+  .hero-message-decor:nth-of-type(1) {
+    max-width: 150px;
+    top: -130%;
+    left: 1%;
+  }
+  .hero-message-decor:nth-of-type(6) {
+    max-width: 180px;
+    top: -130%;
+    left: 30%;
+  }
+  .hero-message-decor:nth-of-type(5) {
+    max-width: 190px;
+    bottom: 50%;
+    right: 1%;
+  }
+  .hero-message-decor:nth-of-type(2) {
+    max-width: 130px;
+    bottom: -120%;
+    left: 1%;
+  }
+  .hero-message-decor:nth-of-type(3) {
+    max-width: 180px;
+    bottom: -120%;
+    left: 35%;
+  }
+  .hero-message-decor:nth-of-type(4) {
+    max-width: 130px;
+    bottom: -110%;
+    right: 1%;
+  }
+}
+@media (max-width: 450px) {
+  .hero-message-container {
+    padding: 100px 20px 20px;
+    row-gap: 120px;
+  }
+  .hero-message-title h2 {
+    max-width: 350px;
+  }
+  .hero-message-decor:nth-of-type(1) {
+    max-width: 120px;
+    top: -50%;
+    left: 0%;
+  }
+  .hero-message-decor:nth-of-type(6) {
+    max-width: 140px;
+    top: -55%;
+    left: 30%;
+  }
+  .hero-message-decor:nth-of-type(5) {
+    max-width: 150px;
+    top: -40%;
+    right: 0%;
+  }
+  .hero-message-decor:nth-of-type(2) {
+    max-width: 100px;
+    bottom: -55%;
+    left: 3%;
+  }
+  .hero-message-decor:nth-of-type(3) {
+    max-width: 130px;
+    bottom: -55%;
+    left: 30%;
+  }
+  .hero-message-decor:nth-of-type(4) {
+    max-width: 100px;
+    bottom: -50%;
+    right: 8%;
+  }
+}
+@media (max-width: 375px) {
+  .hero-message-container {
+    padding: 100px 20px 20px;
+    row-gap: 100px;
+  }
+  .hero-message-decor:nth-of-type(1) {
+    max-width: 100px;
+    top: -50%;
+    left: 0%;
+  }
+  .hero-message-decor:nth-of-type(6) {
+    max-width: 120px;
+    top: -55%;
+    left: 30%;
+  }
+  .hero-message-decor:nth-of-type(5) {
+    max-width: 130px;
+    top: -40%;
+    right: 0%;
+  }
+  .hero-message-decor:nth-of-type(2) {
+    max-width: 80px;
+    bottom: -50%;
+    left: 3%;
+  }
+  .hero-message-decor:nth-of-type(3) {
+    max-width: 110px;
+    bottom: -50%;
+    left: 30%;
+  }
+  .hero-message-decor:nth-of-type(4) {
+    max-width: 80px;
+    bottom: -45%;
+    right: 8%;
+  }
+  .hero-message-text {
+    font-size: 16px;
+    line-height: 25px;
+    max-width: unset;
+    gap: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .hero-message-container {
+    padding: 100px 10px 20px;
+    row-gap: 100px;
+  }
+}

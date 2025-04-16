@@ -1,0 +1,43 @@
+.arrow-button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 69% 31% 72% 28% / 34% 70% 30% 66%;
+  padding: 20px 60px 20px 60px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "TTRounds";
+}
+.white {
+  color: #fdfaf6;
+  border: 2px solid #fdfaf6;
+}
+.black {
+  color: #000000;
+  border: 2px solid #000000;
+}
+.arrow-button img {
+  transition: all 0.3s;
+  margin-left: 20px;
+}
+.arrow-button:hover.arrow-button img {
+  transform: translate(10px, 0px);
+}
+
+/* ADAPTIVE */
+@media (max-width: 425px) {
+  .arrow-button {
+    padding: 20px 30px;
+  }
+  .arrow-button img {
+    margin-left: 10px;
+  }
+  .arrow-button:hover.arrow-button img {
+    transform: none;
+  }
+}
+@media (max-width: 320px) {
+  .arrow-button {
+    padding: 15px;
+  }
+}

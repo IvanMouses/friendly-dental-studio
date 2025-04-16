@@ -1,0 +1,111 @@
+.services-and-price-header-container {
+  background-color: #7ab883;
+  padding: 150px 40px 40px;
+}
+.services-and-price-header-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services-and-price-header-title {
+  font-size: 64px;
+  line-height: 74px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.services-and-price-header-menu {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: static;
+  padding: 0px;
+  top: -121px;
+  left: 0;
+  right: 0;
+  background-color: #7ab883;
+  transition: top 0.3s ease-in-out;
+}
+.sticky-menu {
+  position: fixed;
+  padding: 30px;
+  top: 0;
+}
+.services-and-price-header-menu-item {
+  display: flex;
+  transition: color 0.5s, background-color 0.5s;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+}
+.services-and-price-header-menu-item a {
+  padding: 20px;
+}
+.services-and-price-header-menu-item:hover {
+  background-color: #fff;
+  color: #7ab883;
+}
+
+/* ADAPTIVE */
+
+@media (max-width: 1024px) {
+  .services-and-price-header-title {
+    font-size: 50px;
+    line-height: 65px;
+    margin-bottom: 40px;
+  }
+  .services-and-price-header-menu {
+    gap: 10px;
+  }
+  .services-and-price-header-menu-item a {
+    padding: 10px;
+  }
+  .sticky-menu {
+    padding: 40px;
+  }
+}
+@media (max-width: 1000px) {
+  .services-and-price-header-container {
+    padding: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .services-and-price-header-title {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 30px;
+  }
+  .sticky-menu {
+    padding: 20px;
+  }
+  .services-and-price-header-menu-item {
+    font-size: 14px;
+  }
+}
+@media (max-width: 630px) {
+  .services-and-price-header-container {
+    padding: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .services-and-price-header-container {
+    padding: 60px 20px 20px;
+  }
+}
+@media (max-width: 425px) {
+  .services-and-price-header-title {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .services-and-price-header-title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}

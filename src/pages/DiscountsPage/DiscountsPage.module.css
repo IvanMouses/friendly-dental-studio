@@ -1,0 +1,96 @@
+.discounts-container {
+    padding: 150px 40px 40px;
+  }
+  .discounts-body {
+    max-width: 1080px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .discounts-title {
+    font-size: 64px;
+    line-height: 64px;
+    max-width: unset;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .discounts-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 30px;
+    max-width: unset;
+    text-align: center;
+    line-height: 42px;
+  }
+  .discounts-text a {
+    transition: color 0.3s;
+    color: #7ab883;
+  }
+  .discounts-text a:hover {
+    color: #1dbb35;
+  }
+  
+  /* ADAPTIVE */
+  
+  @media (max-width: 1024px) {
+    .discounts-title {
+      font-size: 50px;
+      line-height: 60px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+  @media (max-width: 1000px) {
+    .discounts-container {
+      padding: 60px 40px 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    .discounts-title {
+      font-size: 45px;
+      line-height: 50px;
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 630px) {
+    .discounts-container {
+      padding: 60px 20px 20px;
+    }
+  }
+  @media (max-width: 425px) {
+    .discounts-title {
+      font-size: 35px;
+      line-height: 40px;
+    }
+  }
+  @media (max-width: 320px) {
+    .discounts-container {
+      padding: 60px 10px 20px;
+    }
+  }
+  @media (max-width: 950px) {
+    .discounts-text {
+      font-size: 25px;
+      line-height: 38px;
+    }
+  }
+  @media (max-width: 690px) {
+    .discounts-text {
+      font-size: 20px;
+      line-height: 30px;
+      max-width: unset;
+      gap: 10px;
+    }
+  }
+  @media (max-width: 375px) {
+    .discounts-text {
+      font-size: 16px;
+      line-height: 25px;
+      max-width: unset;
+      gap: 10px;
+    }
+  }
+  
