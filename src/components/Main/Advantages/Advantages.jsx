@@ -131,8 +131,10 @@ export default function Advantages() {
             ]}
           ></LightGallery>
           <div className={styles["caption"]} style={{ display: "none" }}>
-            <h4>Стоматологический микроскоп Leica</h4>
-            <p>
+            <h4 className={styles["caption-title"]}>
+              Стоматологический микроскоп Leica
+            </h4>
+            <p className={styles["caption-text"]}>
               Позволяет поставить верный диагноз и обеспечить долговечность
               лечения. С помощью микроскопа удаётся работать только с
               пораженными тканями, не затрагивая здоровые.

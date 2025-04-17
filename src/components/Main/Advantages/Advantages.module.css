@@ -69,6 +69,21 @@
   color: #32c546;
 }
 
+.caption-title {
+  font-family: "TTRounds" !important;
+  font-size: 25px !important;
+  line-height: 1.35;
+  max-width: 800px !important;
+  margin: 0 auto !important;
+}
+.caption-text {
+  font-family: "TTRounds" !important;
+  font-size: 16px !important;
+  line-height: 1.25;
+  max-width: 800px !important;
+  margin: 0 auto !important;
+}
+
 /* ADAPTIVE */
 @media (max-width: 1440px) {
   .advantages-row:nth-of-type(2) img {
@@ -147,10 +162,28 @@
   .advantages-container {
     padding: 0px 20px 200px 20px;
   }
+  .caption-title {
+    font-size: 20px !important;
+    line-height: 1.25;
+    max-width: unset !important;
+  }
+  .caption-text {
+    font-size: 14px !important;
+    line-height: 1.15;
+    max-width: unset !important;
+  }
 }
 @media (max-width: 472px) {
   .advantages-row:nth-of-type(2) img {
     display: none;
+  }
+}
+@media (max-width: 446px) {
+  .caption-title {
+    font-size: 18px !important;
+  }
+  .caption-text {
+    font-size: 12px !important;
   }
 }
 @media (max-width: 425px) {
