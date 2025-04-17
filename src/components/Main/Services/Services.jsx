@@ -11,7 +11,7 @@ export default function Services() {
         </h2>
         <div className={styles["services-cards"]}>
           <Link
-            to="/services-and-price/#therapy"
+            to="friendly-dental-studio/services-and-price/#therapy"
             className={styles["services-card"]}
             style={{
               background: "#7ab883",
@@ -27,12 +27,10 @@ export default function Services() {
               borderRadius: "64% 36% 37% 63% / 61% 64% 36% 39% ",
             }}
           >
-            <p className={styles["services-card-text"]}>
-              Исправление прикуса
-            </p>
+            <p className={styles["services-card-text"]}>Исправление прикуса</p>
           </div>
           <Link
-            to="/services-and-price/#surgery"
+            to="friendly-dental-studio/services-and-price/#surgery"
             className={styles["services-card"]}
             style={{
               background: "#738fe5",
@@ -42,7 +40,7 @@ export default function Services() {
             <p className={styles["services-card-text"]}>Импланты</p>
           </Link>
           <Link
-            to="/services-and-price/#orthopedics"
+            to="friendly-dental-studio/services-and-price/#orthopedics"
             className={styles["services-card"]}
             style={{
               background: "#f98c8c",
@@ -61,7 +59,7 @@ export default function Services() {
             <p className={styles["services-card-text"]}>Протезы</p>
           </div>
           <Link
-            to="/services-and-price/#hygiene"
+            to="friendly-dental-studio/services-and-price/#hygiene"
             className={styles["services-card"]}
             style={{
               background: "#738fe5",
@@ -71,7 +69,7 @@ export default function Services() {
             <p className={styles["services-card-text"]}>Отбеливание</p>
           </Link>
           <Link
-            to="/services-and-price/#hygiene"
+            to="friendly-dental-studio/services-and-price/#hygiene"
             className={styles["services-card"]}
             style={{
               background: "#F6DC43",
@@ -81,7 +79,7 @@ export default function Services() {
             <p className={styles["services-card-text"]}>Гигиена</p>
           </Link>
           <Link
-            to="/services-and-price/#kids"
+            to="friendly-dental-studio/services-and-price/#kids"
             className={styles["services-card"]}
             style={{
               background: "#7ab883",
@@ -91,7 +89,7 @@ export default function Services() {
             <p className={styles["services-card-text"]}>Детям</p>
           </Link>
         </div>
-        <Link to="/services-and-price">
+        <Link to="friendly-dental-studio/services-and-price">
           <ArrowButton color="black" icon="arrow_black">
             Все услуги
           </ArrowButton>
