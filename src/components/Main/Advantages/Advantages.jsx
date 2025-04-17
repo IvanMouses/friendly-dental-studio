@@ -122,10 +122,10 @@ export default function Advantages() {
             dynamicEl={[
               {
                 subHtml: `.${styles["caption"]}`,
-                src: "/friendly-dental-studio/img/Popups/EquipmentPopup/1.jpg",
+                src: "/friendly-dental-studio/img/Main/HeroAdvantages/1.jpg",
               },
               {
-                src: "/friendly-dental-studio/img/Popups/EquipmentPopup/2.jpg",
+                src: "/friendly-dental-studio/img/Main/HeroAdvantages/2.jpg",
                 subHtml: ".caption",
               },
             ]}
