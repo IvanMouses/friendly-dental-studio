@@ -126,7 +126,7 @@ export default function Advantages() {
               },
               {
                 src: "/friendly-dental-studio/img/Main/HeroAdvantages/2.jpg",
-                subHtml: ".caption",
+                subHtml: `.${styles["caption"]}`,
               },
             ]}
           ></LightGallery>
