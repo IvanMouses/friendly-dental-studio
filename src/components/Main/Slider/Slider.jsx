@@ -51,7 +51,7 @@ export default function Slider() {
             text={"Жить счастливо, не отвлекаясь на проблемы с зубами"}
             bgColor={"#7AB883"}
             textColor={"#578FCA"}
-            imgSrc={"./img/Main/HeroSlider/1.png"}
+            imgSrc={"/friendly-dental-studio/img/Main/HeroSlider/1.png"}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -59,7 +59,7 @@ export default function Slider() {
             text={"Пить кофе каждый день и сохранить белизну эмали"}
             bgColor={"#738fe5"}
             textColor={"#f98c8c"}
-            imgSrc={"./img/Main/HeroSlider/2.jpg"}
+            imgSrc={"/friendly-dental-studio/img/Main/HeroSlider/2.jpg"}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -67,7 +67,7 @@ export default function Slider() {
             text={"Любить сладкое, но хотеть здоровые зубы"}
             bgColor={"#f98c8c"}
             textColor={"#578FCA"}
-            imgSrc={"./img/Main/HeroSlider/3.jpg"}
+            imgSrc={"/friendly-dental-studio/img/Main/HeroSlider/3.jpg"}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -75,7 +75,7 @@ export default function Slider() {
             text={"Прийти к специалисту, который будет вам искренне рад"}
             bgColor={"#7AB883"}
             textColor={"#578FCA"}
-            imgSrc={"./img/Main/HeroSlider/4.jpg"}
+            imgSrc={"/friendly-dental-studio/img/Main/HeroSlider/4.jpg"}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -83,7 +83,7 @@ export default function Slider() {
             text={"Найти ребёнку врача, который станет ему другом"}
             bgColor={"#f98c8c"}
             textColor={"#578FCA"}
-            imgSrc={"./img/Main/HeroSlider/5.png"}
+            imgSrc={"/friendly-dental-studio/img/Main/HeroSlider/5.png"}
           />
         </SwiperSlide>
       </Swiper>

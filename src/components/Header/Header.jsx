@@ -68,9 +68,12 @@ export default function Header({ active, setActive }) {
           }
         >
           <div className={styles["header-logo"]}>
-            <Link onClick={() => showMenu && setShowMenu()} to="/">
+            <Link
+              onClick={() => showMenu && setShowMenu()}
+              to="/friendly-dental-studio"
+            >
               <img
-                src={`/img/Header/${
+                src={`/friendly-dental-studio/img/Header/${
                   showMenu ? "logo_circle-white" : "logo_circle"
                 }.svg`}
                 alt="Логотип"
@@ -90,7 +93,7 @@ export default function Header({ active, setActive }) {
                   };
                 }}
                 onClick={() => showMenu && setShowMenu()}
-                to="/services-and-price"
+                to="friendly-dental-studio/services-and-price"
               >
                 Услуги и цены
               </NavLink>
@@ -107,7 +110,7 @@ export default function Header({ active, setActive }) {
                   };
                 }}
                 onClick={() => showMenu && setShowMenu()}
-                to="/doctors"
+                to="friendly-dental-studio/doctors"
               >
                 Врачи
               </NavLink>
@@ -124,7 +127,7 @@ export default function Header({ active, setActive }) {
                   };
                 }}
                 onClick={() => showMenu && setShowMenu()}
-                to="/discounts"
+                to="friendly-dental-studio/discounts"
               >
                 Акции
               </NavLink>
@@ -141,7 +144,7 @@ export default function Header({ active, setActive }) {
                   };
                 }}
                 onClick={() => showMenu && setShowMenu()}
-                to="/journal"
+                to="friendly-dental-studio/journal"
               >
                 Журнал
               </NavLink>
@@ -158,7 +161,7 @@ export default function Header({ active, setActive }) {
                   };
                 }}
                 onClick={() => showMenu && setShowMenu()}
-                to="/contacts"
+                to="friendly-dental-studio/contacts"
               >
                 Контакты
               </NavLink>

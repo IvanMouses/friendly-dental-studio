@@ -33,7 +33,7 @@ export default function UpToHeader() {
           ? `${styles["up-to-header-icon"]} ${styles["active"]}`
           : `${styles["up-to-header-icon"]}`
       }
-      src="/img/UpToHeader/arrow_up.svg"
+      src="/friendly-dental-studio/img/UpToHeader/arrow_up.svg"
       alt=""
     />
   );

@@ -7,7 +7,10 @@ export default function ArrowButton({ children, color, icon, onClick }) {
       className={`${styles["arrow-button"]} ${styles[`${color}`]}`}
     >
       {children}
-      <img src={`/img/Buttons/${icon}.svg`} alt="arrow icon" />
+      <img
+        src={`/friendly-dental-studio/img/Buttons/${icon}.svg`}
+        alt="arrow icon"
+      />
     </button>
   );
 }

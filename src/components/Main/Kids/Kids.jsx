@@ -4,9 +4,7 @@ import { useEffect } from "react";
 export default function Kids() {
   useEffect(() => {
     const pinkBear = document.querySelector(`.${styles["kids-pinkbear"]}`);
-    const yellowBear = document.querySelector(
-      `.${styles["kids-yellowbear"]}`
-    );
+    const yellowBear = document.querySelector(`.${styles["kids-yellowbear"]}`);
     const ball = document.querySelector(`.${styles["kids-ball"]}`);
     const target = document.querySelector(`.${styles["kids-body"]}`);
     let observer = new IntersectionObserver(
@@ -45,22 +43,22 @@ export default function Kids() {
       </div>
       <img
         className={styles["kids-bg"]}
-        src="/img/Main/HeroKids/kids.png"
+        src="/friendly-dental-studio/img/Main/HeroKids/kids.png"
         alt=""
       />
       <img
         className={styles["kids-pinkbear"]}
-        src="/img/Main/HeroKids/pink_bear.svg"
+        src="/friendly-dental-studio/img/Main/HeroKids/pink_bear.svg"
         alt=""
       />
       <img
         className={styles["kids-yellowbear"]}
-        src="/img/Main/HeroKids/yellow_bear.svg"
+        src="/friendly-dental-studio/img/Main/HeroKids/yellow_bear.svg"
         alt=""
       />
       <img
         className={styles["kids-ball"]}
-        src="/img/Main/HeroKids/ball.svg"
+        src="/friendly-dental-studio/img/Main/HeroKids/ball.svg"
         alt=""
       />
     </div>

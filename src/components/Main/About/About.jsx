@@ -48,18 +48,14 @@ export default function About({
   }, []);
 
   return (
-    <div
-      className={`${styles["about-container"]} ${styles[`${bgStyle}`]}`}
-    >
-      <div
-        className={`${styles["about-body"]} ${styles[`${bodyPosition}`]}`}
-      >
+    <div className={`${styles["about-container"]} ${styles[`${bgStyle}`]}`}>
+      <div className={`${styles["about-body"]} ${styles[`${bodyPosition}`]}`}>
         <h2 className={styles["about-title"]}>{title}</h2>
         <ul className={styles["about-list"]}>
           {items.map((item, index) => (
             <li key={index} className={styles["about-item"]}>
               <img
-                src={`img/Main/HeroAbout/${iconStyle}.svg`}
+                src={`/friendly-dental-studio/img/Main/HeroAbout/${iconStyle}.svg`}
                 alt="circle icon"
               />
               <h3

@@ -39,25 +39,37 @@ export default function Comfort() {
         </h2>
         <div className={styles["comfort-items"]}>
           <div className={styles["comfort-item"]} data-item="1">
-            <img src="/img/Main/HeroComfort/1.jpg" alt="" />
+            <img
+              src="/friendly-dental-studio/img/Main/HeroComfort/1.jpg"
+              alt=""
+            />
             <div className={styles["comfort-item-description"]}>
               Уютные интерьеры
             </div>
           </div>
           <div className={styles["comfort-item"]} data-item="2">
-            <img src="/img/Main/HeroComfort/2.jpg" alt="" />
+            <img
+              src="/friendly-dental-studio/img/Main/HeroComfort/2.jpg"
+              alt=""
+            />
             <div className={styles["comfort-item-description"]}>
               Зона самообслуживания с напитками и полезными снеками
             </div>
           </div>
           <div className={styles["comfort-item"]} data-item="3">
-            <img src="/img/Main/HeroComfort/3.jpg" alt="" />
+            <img
+              src="/friendly-dental-studio/img/Main/HeroComfort/3.jpg"
+              alt=""
+            />
             <div className={styles["comfort-item-description"]}>
               Экраны для просмотра кино во время лечения
             </div>
           </div>
           <div className={styles["comfort-item"]} data-item="4">
-            <img src="/img/Main/HeroComfort/4.jpg" alt="" />
+            <img
+              src="/friendly-dental-studio/img/Main/HeroComfort/4.jpg"
+              alt=""
+            />
             <div className={styles["comfort-item-description"]}>
               Удобная парковка
             </div>

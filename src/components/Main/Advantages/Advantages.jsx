@@ -53,7 +53,7 @@ export default function Advantages() {
           <div className={styles["advantages-columns"]}>
             <div className={styles["advantages-row"]}>
               <img
-                src="/img/Main/HeroAdvantages/sticker_healthy_smile.svg"
+                src="/friendly-dental-studio/img/Main/HeroAdvantages/sticker_healthy_smile.svg"
                 alt="sticker"
               />
               <p className={styles["advantages-title"]}>
@@ -70,7 +70,7 @@ export default function Advantages() {
             </div>
             <div className={styles["advantages-row"]}>
               <img
-                src="/img/Main/HeroAdvantages/sticker_safe_comfort.svg"
+                src="/friendly-dental-studio/img/Main/HeroAdvantages/sticker_safe_comfort.svg"
                 alt="sticker"
               />
               <p className={styles["advantages-title"]}>
@@ -94,11 +94,11 @@ export default function Advantages() {
             </div>
             <div className={styles["advantages-row"]}>
               <img
-                src="/img/Main/HeroAdvantages/sticker_care.svg"
+                src="/friendly-dental-studio/img/Main/HeroAdvantages/sticker_care.svg"
                 alt="sticker"
               />
               <img
-                src="/img/Main/HeroAdvantages/sticker_quality.svg"
+                src="/friendly-dental-studio/img/Main/HeroAdvantages/sticker_quality.svg"
                 alt="sticker"
               />
               <p className={styles["advantages-title"]}>Гарантия качества</p>
@@ -122,10 +122,10 @@ export default function Advantages() {
             dynamicEl={[
               {
                 subHtml: `.${styles["caption"]}`,
-                src: "/img/Popups/EquipmentPopup/1.jpg",
+                src: "/friendly-dental-studio/img/Popups/EquipmentPopup/1.jpg",
               },
               {
-                src: "/img/Popups/EquipmentPopup/2.jpg",
+                src: "/friendly-dental-studio/img/Popups/EquipmentPopup/2.jpg",
                 subHtml: ".caption",
               },
             ]}

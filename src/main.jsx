@@ -12,18 +12,18 @@ import ContactsPage from "./pages/ContatcsPage/ContactsPage";
 
 let router = createBrowserRouter([
   {
-    path: "/",
+    path: "/friendly-dental-studio",
     Component: App,
     children: [
       {
-        path: "/",
+        path: "/friendly-dental-studio",
         Component: MainPage,
       },
-      { path: "/services-and-price", Component: ServicesAndPricePage },
-      { path: "/doctors", Component: DoctorsPage },
-      { path: "/discounts", Component: DiscountsPage },
-      { path: "/journal", Component: JournalPage },
-      { path: "/contacts", Component: ContactsPage },
+      { path: "friendly-dental-studio/services-and-price", Component: ServicesAndPricePage },
+      { path: "friendly-dental-studio/doctors", Component: DoctorsPage },
+      { path: "friendly-dental-studio/discounts", Component: DiscountsPage },
+      { path: "friendly-dental-studio/journal", Component: JournalPage },
+      { path: "friendly-dental-studio/contacts", Component: ContactsPage },
     ],
   },
 ]);

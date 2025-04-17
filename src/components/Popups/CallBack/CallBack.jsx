@@ -18,7 +18,9 @@ export default function CallBack() {
         }
       >
         <img
-          src={`/img/Popups/${showPopup ? `close` : `phone-call`}.svg`}
+          src={`/friendly-dental-studio/img/Popups/${
+            showPopup ? `close` : `phone-call`
+          }.svg`}
           alt=""
         />
       </button>

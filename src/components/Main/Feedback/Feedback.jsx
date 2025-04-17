@@ -22,7 +22,10 @@ export default function Feedback() {
         >
           <SwiperSlide>
             <div className={styles["feedback-slide"]}>
-              <img src="/img/Main/HeroFeedback/1.png" alt="Фото клиента" />
+              <img
+                src="/friendly-dental-studio/img/Main/HeroFeedback/1.png"
+                alt="Фото клиента"
+              />
               <div className={styles["feedback-text"]}>
                 <p>
                   Доктора очень компетентны и отзывчивы, как и все помощники и
@@ -35,7 +38,10 @@ export default function Feedback() {
           </SwiperSlide>
           <SwiperSlide>
             <div className={styles["feedback-slide"]}>
-              <img src="/img/Main/HeroFeedback/2.png" alt="Фото клиента" />
+              <img
+                src="/friendly-dental-studio/img/Main/HeroFeedback/2.png"
+                alt="Фото клиента"
+              />
               <div className={styles["feedback-text"]}>
                 <p>
                   До прихода в Friendly Dental Studio у меня были серьезные
@@ -49,7 +55,10 @@ export default function Feedback() {
           </SwiperSlide>
           <SwiperSlide>
             <div className={styles["feedback-slide"]}>
-              <img src="/img/Main/HeroFeedback/3.svg" alt="Фото клиента" />
+              <img
+                src="/friendly-dental-studio/img/Main/HeroFeedback/3.svg"
+                alt="Фото клиента"
+              />
               <div className={styles["feedback-text"]}>
                 <p>
                   Мне кажется я наконец-то нашла свою клинику. Врачи и весь

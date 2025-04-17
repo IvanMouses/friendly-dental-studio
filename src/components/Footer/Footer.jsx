@@ -6,8 +6,11 @@ export default function Footer() {
     <div className={styles["footer-container"]}>
       <div className={styles["footer-body"]}>
         <div className={styles["footer-logo"]}>
-          <Link to="/">
-            <img src="/img/Header/logo_circle.svg" alt="Логотип" />
+          <Link to="/friendly-dental-studio">
+            <img
+              src="/friendly-dental-studio/img/Header/logo_circle.svg"
+              alt="Логотип"
+            />
           </Link>
         </div>
         <div className={styles["footer-contacts"]}>
@@ -26,32 +29,40 @@ export default function Footer() {
                 href="https://api.whatsapp.com/send?phone=79111008222"
                 target="_blank"
               >
-                <img src="/img/Footer/whatsapp.svg" alt="whatsapp" />
+                <img
+                  src="/friendly-dental-studio/img/Footer/whatsapp.svg"
+                  alt="whatsapp"
+                />
               </a>
               <a target="_blank" href="https://vk.com/public211334353">
-                <img src="/img/Footer/vk.svg" alt="vk" />
+                <img src="/friendly-dental-studio/img/Footer/vk.svg" alt="vk" />
               </a>
               <a href="https://telegram.me/sfriendly_dental" target="_blank">
-                <img src="/img/Footer/telegram.png" alt="telegram" />
+                <img
+                  src="/friendly-dental-studio/img/Footer/telegram.png"
+                  alt="telegram"
+                />
               </a>
             </div>
           </div>
         </div>
         <ul className={styles["footer-menu-list"]}>
           <li className={styles["footer-menu-item"]}>
-            <Link to="/services-and-price">Услуги и цены</Link>
+            <Link to="friendly-dental-studio/services-and-price">
+              Услуги и цены
+            </Link>
           </li>
           <li className={styles["footer-menu-item"]}>
-            <Link to="/doctors">Врачи</Link>
+            <Link to="friendly-dental-studio/doctors">Врачи</Link>
           </li>
           <li className={styles["footer-menu-item"]}>
-            <Link to="/discounts">Акции</Link>
+            <Link to="friendly-dental-studio/discounts">Акции</Link>
           </li>
           <li className={styles["footer-menu-item"]}>
-            <Link to="/journal">Журнал</Link>
+            <Link to="friendly-dental-studio/journal">Журнал</Link>
           </li>
           <li className={styles["footer-menu-item"]}>
-            <Link to="/contacts">Контакты</Link>
+            <Link to="friendly-dental-studio/contacts">Контакты</Link>
           </li>
         </ul>
         <div className={styles["footer-privacy"]}>

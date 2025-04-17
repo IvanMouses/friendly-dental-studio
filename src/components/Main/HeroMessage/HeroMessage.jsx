@@ -41,37 +41,37 @@ export default function HeroMessage() {
           <img
             // style={{ top: "-200px", left: "-200px" }}
             className={styles["hero-message-decor"]}
-            src="/img/Main/HeroMessage/1.svg"
+            src="/friendly-dental-studio/img/Main/HeroMessage/1.svg"
             alt=""
           />
           <img
             // style={{ bottom: "70px", left: "-250px" }}
             className={styles["hero-message-decor"]}
-            src="/img/Main/HeroMessage/3.svg"
+            src="/friendly-dental-studio/img/Main/HeroMessage/3.svg"
             alt=""
           />
           <img
             // style={{ bottom: "-100px", left: "-250px" }}
             className={styles["hero-message-decor"]}
-            src="/img/Main/HeroMessage/4.svg"
+            src="/friendly-dental-studio/img/Main/HeroMessage/4.svg"
             alt=""
           />
           <img
             // style={{ bottom: "-100px", right: "-220px" }}
             className={styles["hero-message-decor"]}
-            src="/img/Main/HeroMessage/5.svg"
+            src="/friendly-dental-studio/img/Main/HeroMessage/5.svg"
             alt=""
           />
           <img
             // style={{ bottom: "0px", right: "-250px" }}
             className={styles["hero-message-decor"]}
-            src="/img/Main/HeroMessage/6.svg"
+            src="/friendly-dental-studio/img/Main/HeroMessage/6.svg"
             alt=""
           />
           <img
             // style={{ top: "-200px", right: "-250px" }}
             className={styles["hero-message-decor"]}
-            src="/img/Main/HeroMessage/2.svg"
+            src="/friendly-dental-studio/img/Main/HeroMessage/2.svg"
             alt=""
           />
         </div>

@@ -33,7 +33,7 @@ export default function SlideGallery() {
             <div className={styles["slide-gallery-img"]}>
               <img
                 className={styles["slide-gallery-picture"]}
-                src="/img/Main/HeroSlideGallery/1.jpg"
+                src="/friendly-dental-studio/img/Main/HeroSlideGallery/1.jpg"
                 alt="Фото из студии"
               />
             </div>
@@ -42,7 +42,7 @@ export default function SlideGallery() {
             <div className={styles["slide-gallery-img"]}>
               <img
                 className={styles["slide-gallery-picture"]}
-                src="/img/Main/HeroSlideGallery/2.jpg"
+                src="/friendly-dental-studio/img/Main/HeroSlideGallery/2.jpg"
                 alt="Фото из студии"
               />
             </div>
@@ -51,7 +51,7 @@ export default function SlideGallery() {
             <div className={styles["slide-gallery-img"]}>
               <img
                 className={styles["slide-gallery-picture"]}
-                src="/img/Main/HeroSlideGallery/3.jpg"
+                src="/friendly-dental-studio/img/Main/HeroSlideGallery/3.jpg"
                 alt="Фото из студии"
               />
             </div>
