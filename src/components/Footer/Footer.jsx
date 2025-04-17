@@ -48,21 +48,21 @@ export default function Footer() {
         </div>
         <ul className={styles["footer-menu-list"]}>
           <li className={styles["footer-menu-item"]}>
-            <Link to="friendly-dental-studio/services-and-price">
+            <Link to="/friendly-dental-studio/services-and-price">
               Услуги и цены
             </Link>
           </li>
           <li className={styles["footer-menu-item"]}>
-            <Link to="friendly-dental-studio/doctors">Врачи</Link>
+            <Link to="/friendly-dental-studio/doctors">Врачи</Link>
           </li>
           <li className={styles["footer-menu-item"]}>
-            <Link to="friendly-dental-studio/discounts">Акции</Link>
+            <Link to="/friendly-dental-studio/discounts">Акции</Link>
           </li>
           <li className={styles["footer-menu-item"]}>
-            <Link to="friendly-dental-studio/journal">Журнал</Link>
+            <Link to="/friendly-dental-studio/journal">Журнал</Link>
           </li>
           <li className={styles["footer-menu-item"]}>
-            <Link to="friendly-dental-studio/contacts">Контакты</Link>
+            <Link to="/friendly-dental-studio/contacts">Контакты</Link>
           </li>
         </ul>
         <div className={styles["footer-privacy"]}>

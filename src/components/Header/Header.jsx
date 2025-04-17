@@ -93,7 +93,7 @@ export default function Header({ active, setActive }) {
                   };
                 }}
                 onClick={() => showMenu && setShowMenu()}
-                to="friendly-dental-studio/services-and-price"
+                to="/friendly-dental-studio/services-and-price"
               >
                 Услуги и цены
               </NavLink>
@@ -110,7 +110,7 @@ export default function Header({ active, setActive }) {
                   };
                 }}
                 onClick={() => showMenu && setShowMenu()}
-                to="friendly-dental-studio/doctors"
+                to="/friendly-dental-studio/doctors"
               >
                 Врачи
               </NavLink>
@@ -127,7 +127,7 @@ export default function Header({ active, setActive }) {
                   };
                 }}
                 onClick={() => showMenu && setShowMenu()}
-                to="friendly-dental-studio/discounts"
+                to="/friendly-dental-studio/discounts"
               >
                 Акции
               </NavLink>
@@ -144,7 +144,7 @@ export default function Header({ active, setActive }) {
                   };
                 }}
                 onClick={() => showMenu && setShowMenu()}
-                to="friendly-dental-studio/journal"
+                to="/friendly-dental-studio/journal"
               >
                 Журнал
               </NavLink>
@@ -161,7 +161,7 @@ export default function Header({ active, setActive }) {
                   };
                 }}
                 onClick={() => showMenu && setShowMenu()}
-                to="friendly-dental-studio/contacts"
+                to="/friendly-dental-studio/contacts"
               >
                 Контакты
               </NavLink>
